@@ -1200,9 +1200,9 @@ export default function QuranTranslationLandingPage() {
                     ? {}
                     : { duration: 7, repeat: Infinity, ease: "easeInOut" }
                 }
-                className={`relative mx-auto max-w-2xl p-3 sm:p-4 ${softCard}`}
+                className={`relative mx-auto max-w-2xl p-3 sm:p-4 ${gradientOuterCard}`}
               >
-                <div className="rounded-[1.6rem] border border-white/10 bg-[linear-gradient(135deg,rgba(6,28,36,0.72)_0%,rgba(11,59,54,0.58)_52%,rgba(15,118,110,0.34)_100%)] p-4 sm:p-6">
+                <div className={`rounded-[1.6rem] border border-white/10 p-4 sm:p-6 ${INNER_GRADIENT}`}>
                   <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                       <p className="text-xs text-white/60 sm:text-sm">
@@ -1217,7 +1217,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
                   </div>
 
-                  <div className="mt-6 rounded-[1.4rem] border border-white/10 bg-[rgba(6,28,36,0.72)] p-4 sm:mt-8 sm:p-6">
+                  <div className="mt-6 rounded-[1.4rem] border border-white/10 bg-[rgba(6,28,36,0.58)] p-4 sm:mt-8 sm:p-6">
                     <div className="mb-4 flex items-start gap-3 text-sm text-white/80 sm:items-center sm:text-base">
                       <Headphones className="mt-0.5 h-5 w-5 shrink-0 text-[#7ED6C2] sm:mt-0" />
                       <span>
