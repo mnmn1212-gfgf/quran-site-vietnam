@@ -1023,7 +1023,7 @@ export default function QuranTranslationLandingPage() {
               initial="hidden"
               animate="show"
               variants={fadeUp}
-              className={`mx-auto flex items-center justify-between gap-3 rounded-[1.5rem] px-3 py-3 sm:rounded-[2rem] sm:px-4 ${glass}`}
+              className={`mx-auto flex items-center justify-between gap-3 rounded-[1.5rem] border border-white/10 px-3 py-3 sm:rounded-[2rem] sm:px-4 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_8px_22px_rgba(0,0,0,0.14)]`}
             >
               <div className="flex min-w-0 items-center gap-3 sm:gap-4">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-[#D4B06A]/20 bg-white/10 shadow-[0_0_16px_rgba(15,118,110,0.10)] sm:h-16 sm:w-16">
