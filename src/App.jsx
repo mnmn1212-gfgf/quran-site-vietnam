@@ -1649,7 +1649,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.6rem] border border-white/10 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center ${OUTER_GRADIENT}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D4B06A]/20 bg-[linear-gradient(135deg,rgba(15,118,110,0.24)_0%,rgba(212,176,106,0.16)_100%)] shadow-[0_0_24px_rgba(15,118,110,0.12)] backdrop-blur-md">
                       <MessageCircle
@@ -1700,7 +1700,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(135deg,rgba(6,28,36,0.92)_0%,rgba(11,59,54,0.78)_52%,rgba(15,118,110,0.58)_100%)] p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.8rem] border border-white/10 p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center ${OUTER_GRADIENT}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D4B06A]/20 bg-[linear-gradient(135deg,rgba(15,118,110,0.24)_0%,rgba(212,176,106,0.16)_100%)] shadow-[0_0_24px_rgba(15,118,110,0.12)] backdrop-blur-md">
                       <Link2
